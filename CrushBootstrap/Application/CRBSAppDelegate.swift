@@ -8,6 +8,7 @@
 
 import UIKit
 
-class CRBSAppDelegate: UIResponder {
-
+@UIApplicationMain
+class CRBSAppDelegate: UIResponder, UIApplicationDelegate {
+    var window: UIWindow?
 }
