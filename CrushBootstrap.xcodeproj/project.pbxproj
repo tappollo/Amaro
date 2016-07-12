@@ -306,7 +306,7 @@
 			attributes = {
 				CLASSPREFIX = CRBS;
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Crush & Lovely";
 				TargetAttributes = {
 					095A2FFD1D3491D100665F07 = {
@@ -931,7 +931,9 @@
 			baseConfigurationReference = BD4E49501B8AC7BE004C140F /* CrushBootstrap-Debug.xcconfig */;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -960,6 +962,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD4E49531B8AC7BE004C140F /* CrushBootstrap-Test.xcconfig */;
 			buildSettings = {
+				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -989,6 +992,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD4E49521B8AC7BE004C140F /* CrushBootstrap-Release.xcconfig */;
 			buildSettings = {
+				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1017,6 +1021,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD4E49511B8AC7BE004C140F /* CrushBootstrap-Profile.xcconfig */;
 			buildSettings = {
+				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1045,6 +1050,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD4E49521B8AC7BE004C140F /* CrushBootstrap-Release.xcconfig */;
 			buildSettings = {
+				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1074,7 +1080,9 @@
 			baseConfigurationReference = BD4E49501B8AC7BE004C140F /* CrushBootstrap-Debug.xcconfig */;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1084,6 +1092,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD4E49521B8AC7BE004C140F /* CrushBootstrap-Release.xcconfig */;
 			buildSettings = {
+				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1131,6 +1140,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD4E49511B8AC7BE004C140F /* CrushBootstrap-Profile.xcconfig */;
 			buildSettings = {
+				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1159,6 +1169,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD4E49531B8AC7BE004C140F /* CrushBootstrap-Test.xcconfig */;
 			buildSettings = {
+				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
