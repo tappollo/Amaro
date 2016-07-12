@@ -1,42 +1,27 @@
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 
-# Uncomment this line if you need Swift support:
-# use_frameworks!
+use_frameworks!
 
 
-# Crush Utility Belt
-pod 'Sidecar', '~> 1.0'
+target 'CrushBootstrap' do
+    # Application Pods
+end
 
-# Logging & Analytics
-pod 'CocoaLumberjack', '~> 2.0'
-
-# Networking
-pod 'AFNetworking'
-
-# Various goodies
-pod 'libextobjc'       # Useful macros and some craziness
-pod 'Asterism'         # Nice & fast collection operations
-
-# You may want...
-#pod 'FormatterKit'    # For all your string formatting needs
-#pod 'PromiseKit'      # Promises/A+-alike
-#pod 'Mantle'          # Github's model framework
-#pod 'SSKeychain'      # Go-to keychain wrapper
-#pod 'DateTools'       # Datetime heavy lifting
-#pod 'Masonry'         # Convenient autolayout DSL
-#pod 'Reveal-iOS-SDK', :configurations => ['Debug_Staging', 'Debug_Production']
 
 # Testing necessities
-target 'UnitTests' do
-  pod 'Specta'
-  pod 'Expecta'
+abstract_target :unit_tests do
+    target 'UnitTests'
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'OCMock'
+    pod 'OHHTTPStubs'
 end
 
 
 # Inform CocoaPods that we use some custom build configurations
 # Leave this in place unless you've tweaked the project's targets and configurations.
-xcodeproj 'CrushBootstrap',
+project 'CrushBootstrap',
   'Debug_Staging'   => :debug,   'Debug_Production'   => :debug,
   'Test_Staging'    => :debug,   'Test_Production'    => :debug,
   'AdHoc_Staging'   => :release, 'AdHoc_Production'   => :release,
@@ -45,11 +30,16 @@ xcodeproj 'CrushBootstrap',
 
 
 # After every installation, copy the license settings plist over to our project
-post_install do |installer|
-  require 'fileutils'
-
-  acknowledgements_plist = 'Pods/Target Support Files/Pods/Pods-Acknowledgements.plist'
-  if Dir.exists?('CrushBootstrap/Resources/Settings.bundle') && File.exists?(acknowledgements_plist)
-    FileUtils.cp(acknowledgements_plist, 'CrushBootstrap/Resources/Settings.bundle/Acknowledgements.plist')
-  end
+post_install do | installer |
+    require 'fileutils'
+    
+    pods_acknowledgements_path = 'Pods/Target Support Files/Pods/Pods-Acknowledgements.plist'
+    settings_bundle_path = Dir.glob("**/*Settings.bundle*").first
+    
+    if File.file?(pods_acknowledgements_path)
+        puts 'Copying acknowledgements to Settings.bundle'
+        FileUtils.cp_r(pods_acknowledgements_path, "#{settings_bundle_path}/Acknowledgements.plist", :remove_destination => true)
+    end
 end
+
+
