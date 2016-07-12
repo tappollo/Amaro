@@ -28,7 +28,7 @@ pod 'Asterism'         # Nice & fast collection operations
 #pod 'Reveal-iOS-SDK', :configurations => ['Debug_Staging', 'Debug_Production']
 
 # Testing necessities
-target 'Specs' do
+target 'UnitTests' do
   pod 'Specta'
   pod 'Expecta'
 end

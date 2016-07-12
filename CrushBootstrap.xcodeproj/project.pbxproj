@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		036A61EAF6146EA59BD29634 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A06B515E067379B8477A8245 /* libPods.a */; };
-		074C8AD7A4D403DECEE7F926 /* libPods-Specs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A5F5E57179B0D085AF4FF2 /* libPods-Specs.a */; };
-		BD304C8118E672EA0034105E /* CRBSDummySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BD304C8018E672EA0034105E /* CRBSDummySpec.m */; };
+		095A30011D3491D100665F07 /* UnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095A30001D3491D100665F07 /* UnitTests.swift */; };
+		360334FACBB13DD1BCA3712C /* libPods-UnitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8E2DC18CDB92BCD2FC7247 /* libPods-UnitTests.a */; };
 		BD304C8318E77F7E0034105E /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD304C8218E77F7E0034105E /* Settings.bundle */; };
 		BD35136619BE274A00A19841 /* CRBSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = BD35136519BE274A00A19841 /* CRBSConstants.m */; };
 		BD6951CF18EA4B0800F2F410 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6951CE18EA4B0800F2F410 /* main.m */; };
@@ -23,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BDDB997818C3943B003EBC42 /* PBXContainerItemProxy */ = {
+		095A30031D3491D100665F07 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BDDB994718C3943B003EBC42 /* Project object */;
 			proxyType = 1;
@@ -33,24 +32,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		12CC9EC171F3BB2114E66841 /* Pods-Specs.test_staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.test_staging.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.test_staging.xcconfig"; sourceTree = "<group>"; };
-		2CB569C4CA54BBB2A8A3438F /* Pods.adhoc_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.adhoc_production.xcconfig; path = "Pods/Target Support Files/Pods/Pods.adhoc_production.xcconfig"; sourceTree = "<group>"; };
-		326C1F0145B5BE66CBCC67F1 /* Pods-Specs.test_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.test_production.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.test_production.xcconfig"; sourceTree = "<group>"; };
-		3EA32E3BEF65BE84130D7190 /* Pods.profile_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.profile_production.xcconfig; path = "Pods/Target Support Files/Pods/Pods.profile_production.xcconfig"; sourceTree = "<group>"; };
-		40BA951C2C05A8E480C4A89C /* Pods-Specs.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.distribution.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.distribution.xcconfig"; sourceTree = "<group>"; };
+		095A2FFE1D3491D100665F07 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		095A30001D3491D100665F07 /* UnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTests.swift; sourceTree = "<group>"; };
+		095A30021D3491D100665F07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E57BD7432D5E8CA3AA9A67A /* Pods-UnitTests.test_staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTests.test_staging.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests.test_staging.xcconfig"; sourceTree = "<group>"; };
+		1418614B578E89C166340D79 /* Pods-UnitTests.profile_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTests.profile_production.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests.profile_production.xcconfig"; sourceTree = "<group>"; };
+		291D04D80658EF7CF080525F /* Pods-UnitTests.adhoc_staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTests.adhoc_staging.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests.adhoc_staging.xcconfig"; sourceTree = "<group>"; };
 		46A5F5E57179B0D085AF4FF2 /* libPods-Specs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Specs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D26DC1D97A4FF5AB8CC483F /* Pods-Specs.profile_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.profile_production.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.profile_production.xcconfig"; sourceTree = "<group>"; };
-		570039B4FD45DBAF5A8E969C /* Pods.test_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.test_production.xcconfig; path = "Pods/Target Support Files/Pods/Pods.test_production.xcconfig"; sourceTree = "<group>"; };
-		5AF873AF0F585B45C1E0F5B4 /* Pods.adhoc_staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.adhoc_staging.xcconfig; path = "Pods/Target Support Files/Pods/Pods.adhoc_staging.xcconfig"; sourceTree = "<group>"; };
-		62820E5E5DCE1B7643DDFCAC /* Pods.debug_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug_production.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug_production.xcconfig"; sourceTree = "<group>"; };
-		6770FFEDF6A5EE7451E4DEDF /* Pods-Specs.adhoc_staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.adhoc_staging.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.adhoc_staging.xcconfig"; sourceTree = "<group>"; };
-		6AE8431A4C79A1C8F2737EEB /* Pods.profile_staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.profile_staging.xcconfig; path = "Pods/Target Support Files/Pods/Pods.profile_staging.xcconfig"; sourceTree = "<group>"; };
-		8B825A2DB6F2180BF8C6BAE6 /* Pods.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.distribution.xcconfig; path = "Pods/Target Support Files/Pods/Pods.distribution.xcconfig"; sourceTree = "<group>"; };
-		973497EBFED9FC87626B9E25 /* Pods.debug_staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug_staging.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug_staging.xcconfig"; sourceTree = "<group>"; };
+		52D92556C4B83D9C37E65E30 /* Pods-UnitTests.debug_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTests.debug_production.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests.debug_production.xcconfig"; sourceTree = "<group>"; };
+		84C83086D7DAE56AA7C89D4D /* Pods-UnitTests.adhoc_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTests.adhoc_production.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests.adhoc_production.xcconfig"; sourceTree = "<group>"; };
+		9C8E2DC18CDB92BCD2FC7247 /* libPods-UnitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UnitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06B515E067379B8477A8245 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9A22FEAECDB5B172A6420E4 /* Pods.test_staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.test_staging.xcconfig; path = "Pods/Target Support Files/Pods/Pods.test_staging.xcconfig"; sourceTree = "<group>"; };
-		B9B99CA30A14373A9E910099 /* Pods-Specs.debug_staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.debug_staging.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.debug_staging.xcconfig"; sourceTree = "<group>"; };
-		BD304C8018E672EA0034105E /* CRBSDummySpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRBSDummySpec.m; sourceTree = "<group>"; };
+		B1B73DD62A369EC2F5C9BFA5 /* Pods-UnitTests.test_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTests.test_production.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests.test_production.xcconfig"; sourceTree = "<group>"; };
+		B9420CF93773A3A1FB5B5E2E /* Pods-UnitTests.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTests.distribution.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests.distribution.xcconfig"; sourceTree = "<group>"; };
 		BD304C8218E77F7E0034105E /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		BD35136419BE274A00A19841 /* CRBSConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRBSConstants.h; sourceTree = "<group>"; };
 		BD35136519BE274A00A19841 /* CRBSConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRBSConstants.m; sourceTree = "<group>"; };
@@ -68,63 +62,58 @@
 		BD934CD119C211F600B48551 /* AssetCatalogIdentifiers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetCatalogIdentifiers.m; sourceTree = "<group>"; };
 		BD934CD219C211F600B48551 /* StoryboardIdentifiers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryboardIdentifiers.h; sourceTree = "<group>"; };
 		BD934CD319C211F600B48551 /* StoryboardIdentifiers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryboardIdentifiers.m; sourceTree = "<group>"; };
-		BD9FFD9418E66DF4001DF6EC /* Specs-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Specs-Prefix.pch"; sourceTree = "<group>"; };
 		BDDB994F18C3943B003EBC42 /* CrushBootstrap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrushBootstrap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDB996118C3943B003EBC42 /* CRBSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRBSAppDelegate.h; sourceTree = "<group>"; };
 		BDDB996218C3943B003EBC42 /* CRBSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRBSAppDelegate.m; sourceTree = "<group>"; };
 		BDDB996A18C3943B003EBC42 /* CRBSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRBSViewController.h; sourceTree = "<group>"; };
 		BDDB996B18C3943B003EBC42 /* CRBSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRBSViewController.m; sourceTree = "<group>"; };
 		BDDB996D18C3943B003EBC42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		BDDB997318C3943B003EBC42 /* Specs.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Specs.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDDB997C18C3943B003EBC42 /* Specs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Specs-Info.plist"; sourceTree = "<group>"; };
 		BDF68AF01B713C3400153C8D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		BDF68AF21B713C6200153C8D /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
-		D5905E5F82BFFA7584BAD4C5 /* Pods-Specs.debug_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.debug_production.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.debug_production.xcconfig"; sourceTree = "<group>"; };
-		D803149862748E9E696037FB /* Pods-Specs.adhoc_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.adhoc_production.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.adhoc_production.xcconfig"; sourceTree = "<group>"; };
-		D854A3C5B42BB78F9F14DC65 /* Pods-Specs.profile_staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.profile_staging.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.profile_staging.xcconfig"; sourceTree = "<group>"; };
+		E330B49091E4A1298A7686BF /* Pods-UnitTests.profile_staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTests.profile_staging.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests.profile_staging.xcconfig"; sourceTree = "<group>"; };
+		F6B48921151A49601F4B7429 /* Pods-UnitTests.debug_staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTests.debug_staging.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests.debug_staging.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		095A2FFB1D3491D100665F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360334FACBB13DD1BCA3712C /* libPods-UnitTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BDDB994C18C3943B003EBC42 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				036A61EAF6146EA59BD29634 /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BDDB997018C3943B003EBC42 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				074C8AD7A4D403DECEE7F926 /* libPods-Specs.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		095A2FFF1D3491D100665F07 /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				095A30001D3491D100665F07 /* UnitTests.swift */,
+				095A30021D3491D100665F07 /* Info.plist */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
 		55C5AA14CC157D6E10D487F9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				973497EBFED9FC87626B9E25 /* Pods.debug_staging.xcconfig */,
-				62820E5E5DCE1B7643DDFCAC /* Pods.debug_production.xcconfig */,
-				B9A22FEAECDB5B172A6420E4 /* Pods.test_staging.xcconfig */,
-				570039B4FD45DBAF5A8E969C /* Pods.test_production.xcconfig */,
-				8B825A2DB6F2180BF8C6BAE6 /* Pods.distribution.xcconfig */,
-				5AF873AF0F585B45C1E0F5B4 /* Pods.adhoc_staging.xcconfig */,
-				2CB569C4CA54BBB2A8A3438F /* Pods.adhoc_production.xcconfig */,
-				6AE8431A4C79A1C8F2737EEB /* Pods.profile_staging.xcconfig */,
-				3EA32E3BEF65BE84130D7190 /* Pods.profile_production.xcconfig */,
-				B9B99CA30A14373A9E910099 /* Pods-Specs.debug_staging.xcconfig */,
-				D5905E5F82BFFA7584BAD4C5 /* Pods-Specs.debug_production.xcconfig */,
-				12CC9EC171F3BB2114E66841 /* Pods-Specs.test_staging.xcconfig */,
-				326C1F0145B5BE66CBCC67F1 /* Pods-Specs.test_production.xcconfig */,
-				40BA951C2C05A8E480C4A89C /* Pods-Specs.distribution.xcconfig */,
-				6770FFEDF6A5EE7451E4DEDF /* Pods-Specs.adhoc_staging.xcconfig */,
-				D803149862748E9E696037FB /* Pods-Specs.adhoc_production.xcconfig */,
-				D854A3C5B42BB78F9F14DC65 /* Pods-Specs.profile_staging.xcconfig */,
-				4D26DC1D97A4FF5AB8CC483F /* Pods-Specs.profile_production.xcconfig */,
+				F6B48921151A49601F4B7429 /* Pods-UnitTests.debug_staging.xcconfig */,
+				52D92556C4B83D9C37E65E30 /* Pods-UnitTests.debug_production.xcconfig */,
+				0E57BD7432D5E8CA3AA9A67A /* Pods-UnitTests.test_staging.xcconfig */,
+				B1B73DD62A369EC2F5C9BFA5 /* Pods-UnitTests.test_production.xcconfig */,
+				B9420CF93773A3A1FB5B5E2E /* Pods-UnitTests.distribution.xcconfig */,
+				291D04D80658EF7CF080525F /* Pods-UnitTests.adhoc_staging.xcconfig */,
+				84C83086D7DAE56AA7C89D4D /* Pods-UnitTests.adhoc_production.xcconfig */,
+				E330B49091E4A1298A7686BF /* Pods-UnitTests.profile_staging.xcconfig */,
+				1418614B578E89C166340D79 /* Pods-UnitTests.profile_production.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -223,7 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				BDDB995818C3943B003EBC42 /* CrushBootstrap */,
-				BDDB997A18C3943B003EBC42 /* Specs */,
+				095A2FFF1D3491D100665F07 /* UnitTests */,
 				D36FABF09F1A984E257F1EAF /* Frameworks */,
 				55C5AA14CC157D6E10D487F9 /* Pods */,
 				BDDB995018C3943B003EBC42 /* Products */,
@@ -237,7 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				BDDB994F18C3943B003EBC42 /* CrushBootstrap.app */,
-				BDDB997318C3943B003EBC42 /* Specs.xctest */,
+				095A2FFE1D3491D100665F07 /* UnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -256,29 +245,12 @@
 			path = CrushBootstrap;
 			sourceTree = "<group>";
 		};
-		BDDB997A18C3943B003EBC42 /* Specs */ = {
-			isa = PBXGroup;
-			children = (
-				BD304C8018E672EA0034105E /* CRBSDummySpec.m */,
-				BDDB997B18C3943B003EBC42 /* Supporting Files */,
-			);
-			path = Specs;
-			sourceTree = "<group>";
-		};
-		BDDB997B18C3943B003EBC42 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				BDDB997C18C3943B003EBC42 /* Specs-Info.plist */,
-				BD9FFD9418E66DF4001DF6EC /* Specs-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		D36FABF09F1A984E257F1EAF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				A06B515E067379B8477A8245 /* libPods.a */,
 				46A5F5E57179B0D085AF4FF2 /* libPods-Specs.a */,
+				9C8E2DC18CDB92BCD2FC7247 /* libPods-UnitTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -286,21 +258,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		095A2FFD1D3491D100665F07 /* UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 095A300E1D3491D100665F07 /* Build configuration list for PBXNativeTarget "UnitTests" */;
+			buildPhases = (
+				095A300F1D3491FA00665F07 /* [CP] Check Pods Manifest.lock */,
+				095A2FFA1D3491D100665F07 /* Sources */,
+				095A2FFB1D3491D100665F07 /* Frameworks */,
+				095A2FFC1D3491D100665F07 /* Resources */,
+				095A30111D34922700665F07 /* [CP] Copy Pods Resources */,
+				095A30121D34923400665F07 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				095A30041D3491D100665F07 /* PBXTargetDependency */,
+			);
+			name = UnitTests;
+			productName = UnitTests;
+			productReference = 095A2FFE1D3491D100665F07 /* UnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		BDDB994E18C3943B003EBC42 /* CrushBootstrap */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDDB998418C3943B003EBC42 /* Build configuration list for PBXNativeTarget "CrushBootstrap" */;
 			buildPhases = (
-				CE78B447D2424EDEAEAB74EB /* Check Pods Manifest.lock */,
 				BDF4202019B8F31200FE6C13 /* Generate Storyboard Identifier File */,
 				BD79800C19C0CF3E0087DCCA /* Generate Asset Catalog Identifier File */,
 				BDDB994B18C3943B003EBC42 /* Sources */,
 				BDDB994C18C3943B003EBC42 /* Frameworks */,
 				BD36522718CE89C6009107A7 /* Increment Build Number */,
 				BDDB994D18C3943B003EBC42 /* Resources */,
-				5934C2BEC75D4C51B3689E07 /* Copy Pods Resources */,
 				BDC7F36218EBA5EE0045D4BD /* Remove Unused Localizations */,
 				BD35136319BE21BD00A19841 /* Badge App Icons */,
-				39C981DC16D867281773C28F /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -311,27 +301,6 @@
 			productReference = BDDB994F18C3943B003EBC42 /* CrushBootstrap.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BDDB997218C3943B003EBC42 /* Specs */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BDDB998718C3943B003EBC42 /* Build configuration list for PBXNativeTarget "Specs" */;
-			buildPhases = (
-				295A078AF08D45C99B314B81 /* Check Pods Manifest.lock */,
-				BDDB996F18C3943B003EBC42 /* Sources */,
-				BDDB997018C3943B003EBC42 /* Frameworks */,
-				BDDB997118C3943B003EBC42 /* Resources */,
-				A20A1E42928D4423912BE388 /* Copy Pods Resources */,
-				24CF772DB41806DAC2DF5758 /* Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BDDB997918C3943B003EBC42 /* PBXTargetDependency */,
-			);
-			name = Specs;
-			productName = CrushBootstrapTests;
-			productReference = BDDB997318C3943B003EBC42 /* Specs.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -339,10 +308,12 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = CRBS;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Crush & Lovely";
 				TargetAttributes = {
-					BDDB997218C3943B003EBC42 = {
+					095A2FFD1D3491D100665F07 = {
+						CreatedOnToolsVersion = 7.3.1;
 						TestTargetID = BDDB994E18C3943B003EBC42;
 					};
 				};
@@ -361,12 +332,19 @@
 			projectRoot = "";
 			targets = (
 				BDDB994E18C3943B003EBC42 /* CrushBootstrap */,
-				BDDB997218C3943B003EBC42 /* Specs */,
+				095A2FFD1D3491D100665F07 /* UnitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		095A2FFC1D3491D100665F07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BDDB994D18C3943B003EBC42 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -378,90 +356,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDDB997118C3943B003EBC42 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		24CF772DB41806DAC2DF5758 /* Embed Pods Frameworks */ = {
+		095A300F1D3491FA00665F07 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Specs/Pods-Specs-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		295A078AF08D45C99B314B81 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
 		};
-		39C981DC16D867281773C28F /* Embed Pods Frameworks */ = {
+		095A30111D34922700665F07 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests-resources.sh\"\n";
 		};
-		5934C2BEC75D4C51B3689E07 /* Copy Pods Resources */ = {
+		095A30121D34923400665F07 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A20A1E42928D4423912BE388 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Specs/Pods-Specs-resources.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests-frameworks.sh\"\n";
 		};
 		BD35136319BE21BD00A19841 /* Badge App Icons */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -538,24 +476,17 @@
 			shellScript = "# This script walks the storyboards in your project and creates\n# StoryboardIdentifiers.{h,m} with constants for all the segue,\n# reuse, restoration, and storyboard identifiers.\n# The generated files live in the Other Sources group.\n\n# If this is not desired behavior for you, or you don't use\n# storyboards, feel free to remove this build phase and the\n# generated files in Other Sources.\n\n# If you would like constants generated for restoration IDs,\n# uncomment this line:\n#export NEED_RESTORATION_IDS=1\n\n\"${SRCROOT}/Scripts/GenerateStoryboardIDs.py\"";
 			showEnvVarsInLog = 0;
 		};
-		CE78B447D2424EDEAEAB74EB /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		095A2FFA1D3491D100665F07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				095A30011D3491D100665F07 /* UnitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BDDB994B18C3943B003EBC42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -569,25 +500,436 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDDB996F18C3943B003EBC42 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BD304C8118E672EA0034105E /* CRBSDummySpec.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BDDB997918C3943B003EBC42 /* PBXTargetDependency */ = {
+		095A30041D3491D100665F07 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BDDB994E18C3943B003EBC42 /* CrushBootstrap */;
-			targetProxy = BDDB997818C3943B003EBC42 /* PBXContainerItemProxy */;
+			targetProxy = 095A30031D3491D100665F07 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		095A30051D3491D100665F07 /* Debug_Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6B48921151A49601F4B7429 /* Pods-UnitTests.debug_staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = UnitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tappollo.UnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrushBootstrap.app/CrushBootstrap";
+			};
+			name = Debug_Staging;
+		};
+		095A30061D3491D100665F07 /* Debug_Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52D92556C4B83D9C37E65E30 /* Pods-UnitTests.debug_production.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = UnitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tappollo.UnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrushBootstrap.app/CrushBootstrap";
+			};
+			name = Debug_Production;
+		};
+		095A30071D3491D100665F07 /* Test_Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E57BD7432D5E8CA3AA9A67A /* Pods-UnitTests.test_staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = UnitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tappollo.UnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrushBootstrap.app/CrushBootstrap";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Test_Staging;
+		};
+		095A30081D3491D100665F07 /* Test_Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1B73DD62A369EC2F5C9BFA5 /* Pods-UnitTests.test_production.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = UnitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tappollo.UnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrushBootstrap.app/CrushBootstrap";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Test_Production;
+		};
+		095A30091D3491D100665F07 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9420CF93773A3A1FB5B5E2E /* Pods-UnitTests.distribution.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = UnitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tappollo.UnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrushBootstrap.app/CrushBootstrap";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		095A300A1D3491D100665F07 /* AdHoc_Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 291D04D80658EF7CF080525F /* Pods-UnitTests.adhoc_staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = UnitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tappollo.UnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrushBootstrap.app/CrushBootstrap";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AdHoc_Staging;
+		};
+		095A300B1D3491D100665F07 /* AdHoc_Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84C83086D7DAE56AA7C89D4D /* Pods-UnitTests.adhoc_production.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = UnitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tappollo.UnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrushBootstrap.app/CrushBootstrap";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AdHoc_Production;
+		};
+		095A300C1D3491D100665F07 /* Profile_Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E330B49091E4A1298A7686BF /* Pods-UnitTests.profile_staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = UnitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tappollo.UnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrushBootstrap.app/CrushBootstrap";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile_Staging;
+		};
+		095A300D1D3491D100665F07 /* Profile_Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1418614B578E89C166340D79 /* Pods-UnitTests.profile_production.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = UnitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tappollo.UnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrushBootstrap.app/CrushBootstrap";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile_Production;
+		};
 		BD49EA2018EC611D00F73350 /* Debug_Production */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD4E49501B8AC7BE004C140F /* CrushBootstrap-Debug.xcconfig */;
@@ -601,7 +943,6 @@
 		};
 		BD49EA2118EC611D00F73350 /* Debug_Production */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62820E5E5DCE1B7643DDFCAC /* Pods.debug_production.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID_SUFFIX = .prod;
@@ -612,26 +953,6 @@
 				INFOPLIST_FILE = "CrushBootstrap/Other-Sources/CrushBootstrap-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.crushlovely.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug_Production;
-		};
-		BD49EA2218EC611D00F73350 /* Debug_Production */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5905E5F82BFFA7584BAD4C5 /* Pods-Specs.debug_production.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrushBootstrap.app/CrushBootstrap";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
-				INFOPLIST_FILE = "Specs/Specs-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.crushlovely.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug_Production;
 		};
@@ -647,7 +968,6 @@
 		};
 		BD49EA2418EC612E00F73350 /* Test_Production */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 570039B4FD45DBAF5A8E969C /* Pods.test_production.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID_SUFFIX = .prod;
@@ -658,26 +978,6 @@
 				INFOPLIST_FILE = "CrushBootstrap/Other-Sources/CrushBootstrap-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.crushlovely.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Test_Production;
-		};
-		BD49EA2518EC612E00F73350 /* Test_Production */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 326C1F0145B5BE66CBCC67F1 /* Pods-Specs.test_production.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrushBootstrap.app/CrushBootstrap";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
-				INFOPLIST_FILE = "Specs/Specs-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.crushlovely.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Test_Production;
 		};
@@ -693,7 +993,6 @@
 		};
 		BD49EA2718EC614F00F73350 /* AdHoc_Production */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CB569C4CA54BBB2A8A3438F /* Pods.adhoc_production.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID_SUFFIX = .prod;
@@ -704,26 +1003,6 @@
 				INFOPLIST_FILE = "CrushBootstrap/Other-Sources/CrushBootstrap-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.crushlovely.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = AdHoc_Production;
-		};
-		BD49EA2818EC614F00F73350 /* AdHoc_Production */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D803149862748E9E696037FB /* Pods-Specs.adhoc_production.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrushBootstrap.app/CrushBootstrap";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
-				INFOPLIST_FILE = "Specs/Specs-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.crushlovely.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = AdHoc_Production;
 		};
@@ -739,7 +1018,6 @@
 		};
 		BD49EA2A18EC62DD00F73350 /* Profile_Production */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EA32E3BEF65BE84130D7190 /* Pods.profile_production.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID_SUFFIX = .prod;
@@ -750,26 +1028,6 @@
 				INFOPLIST_FILE = "CrushBootstrap/Other-Sources/CrushBootstrap-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.crushlovely.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Profile_Production;
-		};
-		BD49EA2B18EC62DD00F73350 /* Profile_Production */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D26DC1D97A4FF5AB8CC483F /* Pods-Specs.profile_production.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrushBootstrap.app/CrushBootstrap";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
-				INFOPLIST_FILE = "Specs/Specs-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.crushlovely.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Profile_Production;
 		};
@@ -785,7 +1043,6 @@
 		};
 		BDD67CDC18DFAB85008ECBBD /* AdHoc_Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AF873AF0F585B45C1E0F5B4 /* Pods.adhoc_staging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID_SUFFIX = .staging;
@@ -796,26 +1053,6 @@
 				INFOPLIST_FILE = "CrushBootstrap/Other-Sources/CrushBootstrap-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.crushlovely.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = AdHoc_Staging;
-		};
-		BDD67CDD18DFAB85008ECBBD /* AdHoc_Staging */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6770FFEDF6A5EE7451E4DEDF /* Pods-Specs.adhoc_staging.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrushBootstrap.app/CrushBootstrap";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
-				INFOPLIST_FILE = "Specs/Specs-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.crushlovely.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = AdHoc_Staging;
 		};
@@ -842,7 +1079,6 @@
 		};
 		BDDB998518C3943B003EBC42 /* Debug_Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 973497EBFED9FC87626B9E25 /* Pods.debug_staging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID_SUFFIX = .staging;
@@ -858,7 +1094,6 @@
 		};
 		BDDB998618C3943B003EBC42 /* Distribution */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B825A2DB6F2180BF8C6BAE6 /* Pods.distribution.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID_SUFFIX = "";
@@ -869,46 +1104,6 @@
 				INFOPLIST_FILE = "CrushBootstrap/Other-Sources/CrushBootstrap-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.crushlovely.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Distribution;
-		};
-		BDDB998818C3943B003EBC42 /* Debug_Staging */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9B99CA30A14373A9E910099 /* Pods-Specs.debug_staging.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrushBootstrap.app/CrushBootstrap";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
-				INFOPLIST_FILE = "Specs/Specs-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.crushlovely.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug_Staging;
-		};
-		BDDB998918C3943B003EBC42 /* Distribution */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40BA951C2C05A8E480C4A89C /* Pods-Specs.distribution.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrushBootstrap.app/CrushBootstrap";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
-				INFOPLIST_FILE = "Specs/Specs-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.crushlovely.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Distribution;
 		};
@@ -924,7 +1119,6 @@
 		};
 		BDF1757B18C3986D008BD9C6 /* Profile_Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6AE8431A4C79A1C8F2737EEB /* Pods.profile_staging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID_SUFFIX = .staging;
@@ -935,26 +1129,6 @@
 				INFOPLIST_FILE = "CrushBootstrap/Other-Sources/CrushBootstrap-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.crushlovely.${PRODUCT_NAME:rfc1034identifier:lower}${BUNDLE_ID_SUFFIX}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Profile_Staging;
-		};
-		BDF1757C18C3986D008BD9C6 /* Profile_Staging */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D854A3C5B42BB78F9F14DC65 /* Pods-Specs.profile_staging.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrushBootstrap.app/CrushBootstrap";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
-				INFOPLIST_FILE = "Specs/Specs-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.crushlovely.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Profile_Staging;
 		};
@@ -970,7 +1144,6 @@
 		};
 		BDF1757E18C39BD3008BD9C6 /* Test_Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9A22FEAECDB5B172A6420E4 /* Pods.test_staging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID_SUFFIX = .staging;
@@ -984,29 +1157,25 @@
 			};
 			name = Test_Staging;
 		};
-		BDF1757F18C39BD3008BD9C6 /* Test_Staging */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12CC9EC171F3BB2114E66841 /* Pods-Specs.test_staging.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrushBootstrap.app/CrushBootstrap";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
-				INFOPLIST_FILE = "Specs/Specs-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.crushlovely.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Test_Staging;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		095A300E1D3491D100665F07 /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				095A30051D3491D100665F07 /* Debug_Staging */,
+				095A30061D3491D100665F07 /* Debug_Production */,
+				095A30071D3491D100665F07 /* Test_Staging */,
+				095A30081D3491D100665F07 /* Test_Production */,
+				095A30091D3491D100665F07 /* Distribution */,
+				095A300A1D3491D100665F07 /* AdHoc_Staging */,
+				095A300B1D3491D100665F07 /* AdHoc_Production */,
+				095A300C1D3491D100665F07 /* Profile_Staging */,
+				095A300D1D3491D100665F07 /* Profile_Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
 		BDDB994A18C3943B003EBC42 /* Build configuration list for PBXProject "CrushBootstrap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1035,22 +1204,6 @@
 				BD49EA2718EC614F00F73350 /* AdHoc_Production */,
 				BDF1757B18C3986D008BD9C6 /* Profile_Staging */,
 				BD49EA2A18EC62DD00F73350 /* Profile_Production */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Distribution;
-		};
-		BDDB998718C3943B003EBC42 /* Build configuration list for PBXNativeTarget "Specs" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BDDB998818C3943B003EBC42 /* Debug_Staging */,
-				BD49EA2218EC611D00F73350 /* Debug_Production */,
-				BDF1757F18C39BD3008BD9C6 /* Test_Staging */,
-				BD49EA2518EC612E00F73350 /* Test_Production */,
-				BDDB998918C3943B003EBC42 /* Distribution */,
-				BDD67CDD18DFAB85008ECBBD /* AdHoc_Staging */,
-				BD49EA2818EC614F00F73350 /* AdHoc_Production */,
-				BDF1757C18C3986D008BD9C6 /* Profile_Staging */,
-				BD49EA2B18EC62DD00F73350 /* Profile_Production */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Distribution;

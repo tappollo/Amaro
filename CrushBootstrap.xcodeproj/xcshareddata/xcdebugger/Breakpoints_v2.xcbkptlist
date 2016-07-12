@@ -19,6 +19,23 @@
                   </ActionContent>
                </BreakpointActionProxy>
             </Actions>
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[DDLog log:level:flag:context:file:function:line:tag:format:]"
+                  moduleName = "UnitTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/caoer115/Documents/Projects/Amaro/Pods/CocoaLumberjack/Classes/DDLog.m"
+                  timestampString = "489984851.379699"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "355"
+                  endingLineNumber = "355"
+                  offsetFromSymbolStart = "428">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
