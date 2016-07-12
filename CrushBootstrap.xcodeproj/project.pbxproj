@@ -9,12 +9,10 @@
 /* Begin PBXBuildFile section */
 		095A30011D3491D100665F07 /* UnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095A30001D3491D100665F07 /* UnitTests.swift */; };
 		095A30151D34952100665F07 /* CRBSAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095A30141D34952100665F07 /* CRBSAppDelegate.swift */; };
+		095A30171D34964300665F07 /* CRBSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095A30161D34964300665F07 /* CRBSViewController.swift */; };
 		360334FACBB13DD1BCA3712C /* libPods-UnitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8E2DC18CDB92BCD2FC7247 /* libPods-UnitTests.a */; };
 		BD304C8318E77F7E0034105E /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD304C8218E77F7E0034105E /* Settings.bundle */; };
 		BD35136619BE274A00A19841 /* CRBSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = BD35136519BE274A00A19841 /* CRBSConstants.m */; };
-		BD934CD419C211F600B48551 /* AssetCatalogIdentifiers.m in Sources */ = {isa = PBXBuildFile; fileRef = BD934CD119C211F600B48551 /* AssetCatalogIdentifiers.m */; };
-		BD934CD519C211F600B48551 /* StoryboardIdentifiers.m in Sources */ = {isa = PBXBuildFile; fileRef = BD934CD319C211F600B48551 /* StoryboardIdentifiers.m */; };
-		BDDB996C18C3943B003EBC42 /* CRBSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDB996B18C3943B003EBC42 /* CRBSViewController.m */; };
 		BDDB996E18C3943B003EBC42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDB996D18C3943B003EBC42 /* Images.xcassets */; };
 		BDF68AF11B713C3400153C8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF68AF01B713C3400153C8D /* Main.storyboard */; };
 		BDF68AF31B713C6200153C8D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDF68AF21B713C6200153C8D /* LaunchScreen.xib */; };
@@ -36,10 +34,10 @@
 		095A30021D3491D100665F07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		095A30131D34952100665F07 /* CrushBootstrap-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrushBootstrap-Bridging-Header.h"; sourceTree = "<group>"; };
 		095A30141D34952100665F07 /* CRBSAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRBSAppDelegate.swift; sourceTree = "<group>"; };
+		095A30161D34964300665F07 /* CRBSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRBSViewController.swift; sourceTree = "<group>"; };
 		0E57BD7432D5E8CA3AA9A67A /* Pods-UnitTests.test_staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTests.test_staging.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests.test_staging.xcconfig"; sourceTree = "<group>"; };
 		1418614B578E89C166340D79 /* Pods-UnitTests.profile_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTests.profile_production.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests.profile_production.xcconfig"; sourceTree = "<group>"; };
 		291D04D80658EF7CF080525F /* Pods-UnitTests.adhoc_staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTests.adhoc_staging.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests.adhoc_staging.xcconfig"; sourceTree = "<group>"; };
-		46A5F5E57179B0D085AF4FF2 /* libPods-Specs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Specs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D92556C4B83D9C37E65E30 /* Pods-UnitTests.debug_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTests.debug_production.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests.debug_production.xcconfig"; sourceTree = "<group>"; };
 		84C83086D7DAE56AA7C89D4D /* Pods-UnitTests.adhoc_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTests.adhoc_production.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests.adhoc_production.xcconfig"; sourceTree = "<group>"; };
 		9C8E2DC18CDB92BCD2FC7247 /* libPods-UnitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UnitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,13 +56,7 @@
 		BD4E49731B8AC7DC004C140F /* jspahrsummers-xcconfigs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "jspahrsummers-xcconfigs"; sourceTree = "<group>"; };
 		BD574AFE18EA481500EDD66F /* CrushBootstrap-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CrushBootstrap-Prefix.pch"; sourceTree = "<group>"; };
 		BD6951EA18EA54A800F2F410 /* CrushBootstrap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrushBootstrap-Info.plist"; sourceTree = "<group>"; };
-		BD934CD019C211F600B48551 /* AssetCatalogIdentifiers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetCatalogIdentifiers.h; sourceTree = "<group>"; };
-		BD934CD119C211F600B48551 /* AssetCatalogIdentifiers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetCatalogIdentifiers.m; sourceTree = "<group>"; };
-		BD934CD219C211F600B48551 /* StoryboardIdentifiers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryboardIdentifiers.h; sourceTree = "<group>"; };
-		BD934CD319C211F600B48551 /* StoryboardIdentifiers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryboardIdentifiers.m; sourceTree = "<group>"; };
 		BDDB994F18C3943B003EBC42 /* CrushBootstrap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrushBootstrap.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDDB996A18C3943B003EBC42 /* CRBSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRBSViewController.h; sourceTree = "<group>"; };
-		BDDB996B18C3943B003EBC42 /* CRBSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRBSViewController.m; sourceTree = "<group>"; };
 		BDDB996D18C3943B003EBC42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BDF68AF01B713C3400153C8D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		BDF68AF21B713C6200153C8D /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
@@ -153,17 +145,15 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		BD574AFC18EA481500EDD66F /* Other Sources */ = {
+		BD574AFC18EA481500EDD66F /* Other-Sources */ = {
 			isa = PBXGroup;
 			children = (
 				BD4E494F1B8AC7BE004C140F /* Configuration */,
-				BD934CCF19C211F600B48551 /* Generated */,
 				BD35136419BE274A00A19841 /* CRBSConstants.h */,
 				BD35136519BE274A00A19841 /* CRBSConstants.m */,
 				BD6951EA18EA54A800F2F410 /* CrushBootstrap-Info.plist */,
 				BD49EA2C18EC842B00F73350 /* CrushBootstrap-Environment.h */,
 			);
-			name = "Other Sources";
 			path = "Other-Sources";
 			sourceTree = "<group>";
 		};
@@ -172,17 +162,6 @@
 			children = (
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		BD934CCF19C211F600B48551 /* Generated */ = {
-			isa = PBXGroup;
-			children = (
-				BD934CD019C211F600B48551 /* AssetCatalogIdentifiers.h */,
-				BD934CD119C211F600B48551 /* AssetCatalogIdentifiers.m */,
-				BD934CD219C211F600B48551 /* StoryboardIdentifiers.h */,
-				BD934CD319C211F600B48551 /* StoryboardIdentifiers.m */,
-			);
-			path = Generated;
 			sourceTree = "<group>";
 		};
 		BDB71B2518EA46ED00579B97 /* Application */ = {
@@ -199,8 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				BDF68AF01B713C3400153C8D /* Main.storyboard */,
-				BDDB996A18C3943B003EBC42 /* CRBSViewController.h */,
-				BDDB996B18C3943B003EBC42 /* CRBSViewController.m */,
+				095A30161D34964300665F07 /* CRBSViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -237,7 +215,7 @@
 				BD3CA8BA18D8A68600C993E0 /* Resources */,
 				BD574B0318EA481500EDD66F /* Views */,
 				BDB71B2518EA46ED00579B97 /* Application */,
-				BD574AFC18EA481500EDD66F /* Other Sources */,
+				BD574AFC18EA481500EDD66F /* Other-Sources */,
 			);
 			path = CrushBootstrap;
 			sourceTree = "<group>";
@@ -246,7 +224,6 @@
 			isa = PBXGroup;
 			children = (
 				A06B515E067379B8477A8245 /* libPods.a */,
-				46A5F5E57179B0D085AF4FF2 /* libPods-Specs.a */,
 				9C8E2DC18CDB92BCD2FC7247 /* libPods-UnitTests.a */,
 			);
 			name = Frameworks;
@@ -280,11 +257,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDDB998418C3943B003EBC42 /* Build configuration list for PBXNativeTarget "CrushBootstrap" */;
 			buildPhases = (
-				BDF4202019B8F31200FE6C13 /* Generate Storyboard Identifier File */,
-				BD79800C19C0CF3E0087DCCA /* Generate Asset Catalog Identifier File */,
 				BDDB994B18C3943B003EBC42 /* Sources */,
 				BDDB994C18C3943B003EBC42 /* Frameworks */,
-				BD36522718CE89C6009107A7 /* Increment Build Number */,
 				BDDB994D18C3943B003EBC42 /* Resources */,
 				BDC7F36218EBA5EE0045D4BD /* Remove Unused Localizations */,
 				BD35136319BE21BD00A19841 /* Badge App Icons */,
@@ -413,36 +387,6 @@
 			shellScript = "# For non-app store builds, this script badges the app's icons to indicate whether\n# the build targets staging or production, as well as its version and build number.\n# Changes are made to the icons in the products directory; the icons in your app\n# are unchanged.\n\n# As always, if this isn't to your liking, feel free to remove this build phase.\n\n\"${SRCROOT}/Scripts/BadgeIcons.py\"";
 			showEnvVarsInLog = 0;
 		};
-		BD36522718CE89C6009107A7 /* Increment Build Number */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Increment Build Number";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# This script increments the build number (CFBundleVersion in the Info.plist)\n# on Ad-Hoc or Distribution builds that target real devices.\n# In the context of Amaro, that means an archive build of any scheme, or any\n# non-simulator build of the AppStore scheme.\n\n# Feel free to remove this build phase if that is not desired behavior for you.\n\n\"${SRCROOT}/Scripts/IncrementBuildNumber.py\"";
-			showEnvVarsInLog = 0;
-		};
-		BD79800C19C0CF3E0087DCCA /* Generate Asset Catalog Identifier File */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Generate Asset Catalog Identifier File";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# This script walks the asset catalogs in your project and creates\n# AssetCatalogIdentifiers.{h,m} with methods for all the UIImages\n# found therein.\n# The generated files live in the Other Sources group.\n\n# If this is not desired behavior for you, or you don't use\n# asset catalogs, feel free to remove this build phase and the\n# generated files in Other Sources.\n\n\"${SRCROOT}/Scripts/GenerateAssetCatalogIDs.py\"";
-			showEnvVarsInLog = 0;
-		};
 		BDC7F36218EBA5EE0045D4BD /* Remove Unused Localizations */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -456,21 +400,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# This removes localization files for regions which you haven't explicitly localized\n# in the project settings. This is to work around an issue with pods that include\n# localizations for many languages, and the subsequent misreading of those files\n# by iTunes Connect.\n# See this GitHub issue for more details and other workarounds:\n# https://github.com/mattt/FormatterKit/issues/88\n\n# Feel free to remove this build phase if that problem doesn't apply to you,\n# though leaving it in should be harmless.\n\n\"${SRCROOT}/Scripts/RemoveUnusedLocalizations.py\"";
-			showEnvVarsInLog = 0;
-		};
-		BDF4202019B8F31200FE6C13 /* Generate Storyboard Identifier File */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Generate Storyboard Identifier File";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# This script walks the storyboards in your project and creates\n# StoryboardIdentifiers.{h,m} with constants for all the segue,\n# reuse, restoration, and storyboard identifiers.\n# The generated files live in the Other Sources group.\n\n# If this is not desired behavior for you, or you don't use\n# storyboards, feel free to remove this build phase and the\n# generated files in Other Sources.\n\n# If you would like constants generated for restoration IDs,\n# uncomment this line:\n#export NEED_RESTORATION_IDS=1\n\n\"${SRCROOT}/Scripts/GenerateStoryboardIDs.py\"";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -490,9 +419,7 @@
 			files = (
 				BD35136619BE274A00A19841 /* CRBSConstants.m in Sources */,
 				095A30151D34952100665F07 /* CRBSAppDelegate.swift in Sources */,
-				BD934CD419C211F600B48551 /* AssetCatalogIdentifiers.m in Sources */,
-				BD934CD519C211F600B48551 /* StoryboardIdentifiers.m in Sources */,
-				BDDB996C18C3943B003EBC42 /* CRBSViewController.m in Sources */,
+				095A30171D34964300665F07 /* CRBSViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
