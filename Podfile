@@ -6,6 +6,7 @@ use_frameworks!
 
 target 'CrushBootstrap' do
     # Application Pods
+    pod 'R.swift'
 end
 
 

@@ -11,6 +11,7 @@
 		095A30011D3491D100665F07 /* UnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095A30001D3491D100665F07 /* UnitTests.swift */; };
 		095A30151D34952100665F07 /* CRBSAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095A30141D34952100665F07 /* CRBSAppDelegate.swift */; };
 		095A30171D34964300665F07 /* CRBSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095A30161D34964300665F07 /* CRBSViewController.swift */; };
+		095A301C1D34993D00665F07 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095A301B1D34993D00665F07 /* R.generated.swift */; };
 		6260DB6FD215C02CE2DB0638 /* Pods_unit_tests_UnitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CD40F0BB64AEF97BDF9BB1 /* Pods_unit_tests_UnitTests.framework */; };
 		BD304C8318E77F7E0034105E /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BD304C8218E77F7E0034105E /* Settings.bundle */; };
 		BD35136619BE274A00A19841 /* CRBSConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = BD35136519BE274A00A19841 /* CRBSConstants.m */; };
@@ -38,6 +39,7 @@
 		095A30131D34952100665F07 /* CrushBootstrap-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrushBootstrap-Bridging-Header.h"; sourceTree = "<group>"; };
 		095A30141D34952100665F07 /* CRBSAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRBSAppDelegate.swift; sourceTree = "<group>"; };
 		095A30161D34964300665F07 /* CRBSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRBSViewController.swift; sourceTree = "<group>"; };
+		095A301B1D34993D00665F07 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		0E57BD7432D5E8CA3AA9A67A /* Pods-UnitTests.test_staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTests.test_staging.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests.test_staging.xcconfig"; sourceTree = "<group>"; };
 		1418614B578E89C166340D79 /* Pods-UnitTests.profile_production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTests.profile_production.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests.profile_production.xcconfig"; sourceTree = "<group>"; };
 		291D04D80658EF7CF080525F /* Pods-UnitTests.adhoc_staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTests.adhoc_staging.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests.adhoc_staging.xcconfig"; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 		BD3CA8BA18D8A68600C993E0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				095A301B1D34993D00665F07 /* R.generated.swift */,
 				BDF68AF21B713C6200153C8D /* LaunchScreen.xib */,
 				BDDB996D18C3943B003EBC42 /* Images.xcassets */,
 				BD304C8218E77F7E0034105E /* Settings.bundle */,
@@ -302,6 +305,7 @@
 			buildConfigurationList = BDDB998418C3943B003EBC42 /* Build configuration list for PBXNativeTarget "CrushBootstrap" */;
 			buildPhases = (
 				484072D13264D03778155D91 /* [CP] Check Pods Manifest.lock */,
+				095A30181D3498DC00665F07 /* R.swift */,
 				BDDB994B18C3943B003EBC42 /* Sources */,
 				BDDB994C18C3943B003EBC42 /* Frameworks */,
 				BDDB994D18C3943B003EBC42 /* Resources */,
@@ -419,6 +423,20 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unit_tests-UnitTests/Pods-unit_tests-UnitTests-frameworks.sh\"\n";
 		};
+		095A30181D3498DC00665F07 /* R.swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = R.swift;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT\"";
+		};
 		484072D13264D03778155D91 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -512,6 +530,7 @@
 				BD35136619BE274A00A19841 /* CRBSConstants.m in Sources */,
 				095A30151D34952100665F07 /* CRBSAppDelegate.swift in Sources */,
 				095A30171D34964300665F07 /* CRBSViewController.swift in Sources */,
+				095A301C1D34993D00665F07 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

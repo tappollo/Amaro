@@ -23,6 +23,7 @@ ObjectiveC.gcda
 
 # CocoaPods
 Pods
+*.generated.swift
 
 # >>>bootstrap-only
 # This 'bootstrap-only' block will be removed from this file for projects created from tiramisu.
